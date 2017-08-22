@@ -30,3 +30,24 @@ body {
     height: 100%;
   }
 }
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+}
+
+#authors {
+  .fa {
+    font-size: 25px;
+  }
+
+  .card:hover {
+    background-color: $primary;
+    color: #fff;
+
+    .fa {
+      color: #fff;
+    }
+  }
+}
