@@ -49,5 +49,22 @@ body {
     .fa {
       color: #fff;
     }
+
+    .fa:hover {
+      color: #ddd;
+    }
+  }
+}
+
+#main-footer {
+  height: 300px;
+  a {
+    color: #fff;
+  }
+}
+
+@media(max-width: 576px) {
+  nav .container {
+    width: 100%;
   }
 }
